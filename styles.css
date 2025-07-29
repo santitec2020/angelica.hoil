@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  overflow: hidden;
+  height: 100vh;
+  color: #fdf6d8;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #0d0d0d;
+  background-image: url('https://wallpapers.com/images/high/simple-beautiful-magical-night-sky-with-many-stars-shining-ypgh5wk2uwl6i644.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.tarjeta {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 3px solid #d4af37;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 30px #ffd700;
+  max-width: 450px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.escudo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.3em;
+  margin-bottom: 15px;
+  color: #ffcc00;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.hechizo {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #f0e68c;
+  text-shadow: 0 0 5px #ffffaa;
+}

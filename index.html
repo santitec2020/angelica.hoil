@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hogwarts para Angie</title>
+  <link href="https://wallpapers.com/images/high/simple-beautiful-magical-night-sky-with-many-stars-shining-ypgh5wk2uwl6i644.webp" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Contenedor de partículas mágicas -->
+  <div id="particles-js"></div>
+
+  <div class="tarjeta">
+    <img src="pngwing.com.png" alt="Escudo de Hogwarts" class="escudo">
+    <h1>✨ Bienvenida, Angie Hoil ✨</h1>
+    <p>Tu carta ha llegado. Prepárate para comenzar una aventura mágica<br>
+    en la escuela de magia y hechicería: <strong>Hogwarts</strong> 🦉</p>
+    <p class="hechizo">🪄 Wingardium Leviosa!</p>
+  </div>
+
+  <!-- Música mágica de fondo -->
+  <audio controls autoplay loop>
+    <source src="Hedwig's Theme (Theme from Harry Potter).mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Script de partículas mágicas -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": { "value": "#ffffcc" },
+        "shape": {
+          "type": "circle"
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": true
+        },
+        "size": {
+          "value": 3,
+          "random": true
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "top",
+          "random": true
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": false },
+          "onclick": { "enable": false }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
